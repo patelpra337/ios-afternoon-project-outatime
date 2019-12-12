@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		AB8D960123A1CBB40098F6CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D960023A1CBB40098F6CC /* AppDelegate.swift */; };
 		AB8D960323A1CBB40098F6CC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D960223A1CBB40098F6CC /* SceneDelegate.swift */; };
-		AB8D960523A1CBB40098F6CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8D960423A1CBB40098F6CC /* ViewController.swift */; };
 		AB8D960823A1CBB40098F6CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8D960623A1CBB40098F6CC /* Main.storyboard */; };
 		AB8D960A23A1CBB70098F6CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8D960923A1CBB70098F6CC /* Assets.xcassets */; };
 		AB8D960D23A1CBB70098F6CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB8D960B23A1CBB70098F6CC /* LaunchScreen.storyboard */; };
@@ -24,7 +23,6 @@
 		AB8D95FD23A1CBB40098F6CC /* outatime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = outatime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB8D960023A1CBB40098F6CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB8D960223A1CBB40098F6CC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB8D960423A1CBB40098F6CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB8D960723A1CBB40098F6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB8D960923A1CBB70098F6CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB8D960C23A1CBB70098F6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,17 +67,40 @@
 				AB8D961523A1CEC90098F6CC /* date-picker-modal.png */,
 				AB8D961623A1CECA0098F6CC /* digital-7.ttf */,
 				AB8D961423A1CEC90098F6CC /* time-circuits.png */,
-				AB8D960023A1CBB40098F6CC /* AppDelegate.swift */,
-				AB8D960223A1CBB40098F6CC /* SceneDelegate.swift */,
-				AB8D960423A1CBB40098F6CC /* ViewController.swift */,
-				AB8D960623A1CBB40098F6CC /* Main.storyboard */,
-				AB8D961A23A1D8830098F6CC /* DatePickerViewController.swift */,
-				AB8D961C23A1D89E0098F6CC /* TimeCircuitsViewController.swift */,
-				AB8D960923A1CBB70098F6CC /* Assets.xcassets */,
-				AB8D960B23A1CBB70098F6CC /* LaunchScreen.storyboard */,
+				AB8D962023A1DB800098F6CC /* Resources */,
+				AB8D961F23A1DB6A0098F6CC /* Storyboards */,
+				AB8D961E23A1DB5A0098F6CC /* View Controllers */,
 				AB8D960E23A1CBB70098F6CC /* Info.plist */,
 			);
 			path = outatime;
+			sourceTree = "<group>";
+		};
+		AB8D961E23A1DB5A0098F6CC /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D961A23A1D8830098F6CC /* DatePickerViewController.swift */,
+				AB8D961C23A1D89E0098F6CC /* TimeCircuitsViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AB8D961F23A1DB6A0098F6CC /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D960623A1CBB40098F6CC /* Main.storyboard */,
+				AB8D960B23A1CBB70098F6CC /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		AB8D962023A1DB800098F6CC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB8D960023A1CBB40098F6CC /* AppDelegate.swift */,
+				AB8D960223A1CBB40098F6CC /* SceneDelegate.swift */,
+				AB8D960923A1CBB70098F6CC /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,7 +178,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB8D961B23A1D8830098F6CC /* DatePickerViewController.swift in Sources */,
-				AB8D960523A1CBB40098F6CC /* ViewController.swift in Sources */,
 				AB8D961D23A1D89E0098F6CC /* TimeCircuitsViewController.swift in Sources */,
 				AB8D960123A1CBB40098F6CC /* AppDelegate.swift in Sources */,
 				AB8D960323A1CBB40098F6CC /* SceneDelegate.swift in Sources */,
