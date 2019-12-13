@@ -86,6 +86,12 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="destinationTimeLabel" destination="Tqx-dG-cHq" id="ZrJ-Va-1Gs"/>
+                        <outlet property="lastTimeDepartedLabel" destination="s3n-7d-OS2" id="LZz-Ri-0R1"/>
+                        <outlet property="presentTimeLabel" destination="Nu6-qw-j6n" id="Vgx-WG-W6M"/>
+                        <outlet property="speedLabel" destination="pGn-2a-5gV" id="sT8-2q-uaX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -94,7 +100,6 @@
         <!--Date Picker View Controller-->
         <scene sceneID="edS-BI-Obd">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="UIY-36-M5n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="wd0-TC-hA5" customClass="DatePickerViewController" customModule="outatime" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="xkx-EB-7vQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
@@ -128,6 +133,7 @@
                         <outlet property="datePicker" destination="LJP-Oo-jha" id="fIx-cw-n0U"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UIY-36-M5n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="958" y="139"/>
         </scene>
