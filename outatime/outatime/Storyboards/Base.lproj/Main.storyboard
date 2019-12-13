@@ -74,6 +74,9 @@
                                         <rect key="frame" x="0.0" y="684" width="382" height="36"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Travel Back"/>
+                                        <connections>
+                                            <action selector="travelBackButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RgR-4b-0Ci"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
